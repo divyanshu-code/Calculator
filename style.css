@@ -1,0 +1,54 @@
+.h {
+
+    background-color: rgb(21, 20, 20);
+    height: 700px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+#e {
+
+    height: 200px;
+    width: 400px;
+    background-color: rgb(84, 84, 124);
+    border-radius: 30px;
+
+}
+
+.button {
+
+    margin-top: 17px;
+    margin-left: 13px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: rgb(217, 222, 227);
+
+}
+
+#bold {
+
+    border: 1px solid rgb(84, 84, 124);
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: rgb(84, 84, 124);
+    height: 50px;
+    font-size: 30px;
+    color: white;
+
+}
+
+#f {
+
+    height: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(84, 84, 124);
+    background-color: rgb(84, 84, 124);
+    color: white;
+}
