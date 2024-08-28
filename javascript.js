@@ -7,7 +7,7 @@ let string = "";
 
 Array.from(buttons).forEach( a=>{
 
-    a.addEventListener('click' , (e)=>{
+    a.addEventListener('click',(e)=>{
       
         if(e.target.innerHTML == '='){
             string = string.replace('^' , '**');
