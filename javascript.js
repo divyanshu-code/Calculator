@@ -10,7 +10,7 @@ Array.from(buttons).forEach( a=>{
     a.addEventListener('click' , (e)=>{
       
         if(e.target.innerHTML == '='){
-            string = string.replace('^' , "**");
+            string = string.replace('^' , '**');
             string = string.replace('%' , '/100');
             string = eval(string);
             ans.value = string ;
