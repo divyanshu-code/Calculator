@@ -11,6 +11,7 @@ Array.from(buttons).forEach( a=>{
       
         if(e.target.innerHTML == '='){
             string = string.replace('^' , "**");
+            string = string.replace('%' , '/100');
             string = eval(string);
             ans.value = string ;
             userinput.value = ""; 
